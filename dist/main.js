@@ -90,11 +90,22 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ \"./src/index.scss\");\n/* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_index_scss__WEBPACK_IMPORTED_MODULE_0__);\n\n'use strict';\n\nconst e = React.createElement;\n\nclass LikeButton extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      liked: false\n    };\n  }\n\n  render() {\n    if (this.state.liked) {\n      return 'You liked this.';\n    }\n\n    return e('button', {\n      onClick: () => this.setState({\n        liked: true\n      })\n    }, 'Like');\n  }\n\n}\n\nconst domContainer = document.querySelector('#like_button_container');\nReactDOM.render(e(LikeButton), domContainer);\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/index.scss":
+/*!************************!*\
+  !*** ./src/index.scss ***!
+  \************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-eval("\n\nconst e = React.createElement;\n\nclass LikeButton extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {\n      liked: false\n    };\n  }\n\n  render() {\n    if (this.state.liked) {\n      return 'You liked this.';\n    }\n\n    return e('button', {\n      onClick: () => this.setState({\n        liked: true\n      })\n    }, 'Like');\n  }\n\n}\n\nconst domContainer = document.querySelector('#like_button_container');\nReactDOM.render(e(LikeButton), domContainer);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/index.scss?");
 
 /***/ })
 
