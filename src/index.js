@@ -1,3 +1,4 @@
+import './index.scss';
 'use strict';
 const e = React.createElement;
 
