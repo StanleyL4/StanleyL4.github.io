@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "webpack": "webpack --mode development",
+    "webpack": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
     "url": "https://github.com/StanleyL4/StanleyL4.github.io/issues"
   },
   "homepage": "https://github.com/StanleyL4/StanleyL4.github.io#readme",
+  "proxy": "https://devhk.dev",
   "browserify": {
     "transform": [
       [
@@ -38,7 +39,9 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
-    "bootstrap": "^4.5.2",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
     "dropzone": "^5.7.2",
     "hc-offcanvas-nav": "^5.0.12",
     "jquery": "^3.5.1",
@@ -48,10 +51,12 @@
     "material-design-icons": "^3.0.1",
     "material-table": "^1.69.1",
     "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
     "react-dom": "^16.14.0",
     "react-scripts": "^4.0.0",
     "react-table": "^7.6.1",
     "simplebar": "^6.0.0-beta.2",
+    "styled-components": "^5.2.1",
     "uniq": "^1.0.1",
     "vue": "^2.6.12",
     "workbox-webpack-plugin": "^5.1.4"
